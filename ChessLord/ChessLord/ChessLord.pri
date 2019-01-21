@@ -7,19 +7,18 @@
 message("You are running qmake on a generated .pro file. This may not work!")
 
 
-HEADERS += ./qtquick2applicationviewer.h \
+HEADERS += ./resource.h \
+    ./qtquick2applicationviewer.h \
     ./basic.h \
     ./map.h \
     ./setting.h \
-    ./resource.h \
-    ./mythread.h \
-    ./playsound.h
+    ./keyboard.h \
+    ./playsound.h \
+    ./mythread.h
 SOURCES += ./basic.cpp \
+    ./keyboard.cpp \
+    ./mythread.cpp \
     ./main.cpp \
     ./map.cpp \
-    ./qtquick2applicationviewer.cpp \
-    ./mythread.cpp \
-    ./playsound.cpp
-
-DISTFILES += \
-    $$PWD/main.qml
+    ./playsound.cpp \
+    ./qtquick2applicationviewer.cpp
