@@ -34,7 +34,7 @@ void CMap::paint(QPainter *painter)
 			switch (aMap[j][i])
 			{
 			case 0:
-				painter->drawImage(QRectF(i * 10, j * 10, 10, 10), imgWater);
+//				painter->drawImage(QRectF(i * 10, j * 10, 10, 10), imgWater);
 				break; 
 			case 1:
 				break;

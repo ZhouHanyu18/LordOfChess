@@ -4,16 +4,15 @@ import an_qt_keyboard 1.0
 Rectangle {
 	id: keyboard
 	anchors.centerIn: parent;
-//	width: 100;
-//	height:20;
+
 	Text {
 		id:parentText;
 		anchors.centerIn: keyboard;
-		text: qsTr("click quit");
+		//text: qsTr("click quit");
 		MouseArea {
 			anchors.fill: parent
 			onClicked: {
-				Qt.quit();
+				//Qt.quit();
 			}
 		}
 	}
@@ -26,21 +25,13 @@ Rectangle {
 
 	QMLCKeyBoard{
 		id:ckeyboard
-		onReceive:{
-            parentText.text = str;
-        }
-		onTimeCntChanged:{
-			parentText.text = "timeCntChanged";
-		}
 	}
-
-
 
     Text {//用于显示按键情况
 		x:100;
 		y:100;
         id: keyname;
-        text: "aaaaaaaa";
+        //text: "aaaaaaaa";
 		color: "blue";
 		font { bold: true; pixelSize: 24;}
     }
@@ -75,8 +66,6 @@ Rectangle {
 			x+=10;
             keyname.text=1000000;
 			adjustTest();//测试js代码
-			ckeyboard.timenow=20190118;
-			ckeyboard.send();
 			ckeyboard.getButton(event.key);
             break;
         default:

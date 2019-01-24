@@ -14,11 +14,19 @@ HEADERS += ./resource.h \
     ./setting.h \
     ./keyboard.h \
     ./playsound.h \
-    ./mythread.h
-SOURCES += ./basic.cpp \
+    ./mythread.h \
+    ./adapter.h
+SOURCES += ./adapter.cpp \
+    ./basic.cpp \
     ./keyboard.cpp \
     ./mythread.cpp \
     ./main.cpp \
     ./map.cpp \
     ./playsound.cpp \
     ./qtquick2applicationviewer.cpp
+
+DISTFILES += \
+    $$PWD/main.qml \
+    $$PWD/VoiceButton.qml \
+    $$PWD/Map.qml \
+    $$PWD/Barracks.qml
