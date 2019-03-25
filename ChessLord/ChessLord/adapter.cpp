@@ -10,7 +10,7 @@ CAdapter::~CAdapter()
 
 }
 
-void CAdapter::getButton(LOC_String str)
+void CAdapter::getButton(LOC_STRING str)
 {
 	qDebug() << str;
 }

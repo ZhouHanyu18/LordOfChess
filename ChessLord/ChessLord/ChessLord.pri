@@ -29,4 +29,6 @@ DISTFILES += \
     $$PWD/main.qml \
     $$PWD/VoiceButton.qml \
     $$PWD/Map.qml \
-    $$PWD/Barracks.qml
+    $$PWD/Barracks.qml \
+    $$PWD/KeyBoard.qml \
+    $$PWD/Role.qml

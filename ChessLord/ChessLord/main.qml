@@ -73,12 +73,13 @@ ApplicationWindow {
 	VoiceButton {
         id:setbutton
 		anchors.top: parent.top;
-		anchors.right: parent.right;
-		anchors.rightMargin: 2;
+		anchors.horizontalCenter: parent.horizontalCenter;
 		anchors.topMargin: 2;
 		width: 15
 		height: 15
-        onMusicClick: bplayMusic=!bplayMusic;
+        onMusicClick: {
+            bplayMusic=!bplayMusic;
+        }
     }
 
 }

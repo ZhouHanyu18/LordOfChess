@@ -6,6 +6,10 @@
 class CBasic
 {
 private:
+	LOC_INT X;
+	LOC_INT Y;
+	LOC_INT Width;
+	LOC_INT Height;
 	LOC_INT HP;
 	LOC_INT MP;
 	LOC_INT STR;//力量
@@ -18,7 +22,11 @@ private:
 	LOC_INT AVD;//回避率
 	LOC_INT AFF;//亲和度
 public:
-    LOC_VOID addHP(LOC_INT value){ HP += value; }
+    LOC_VOID addX(LOC_INT value){ X += value; }
+	LOC_VOID addY(LOC_INT value){ Y += value; }
+	LOC_VOID addWidth(LOC_INT value){ Width += value; }
+	LOC_VOID addHeight(LOC_INT value){ Height += value; }
+	LOC_VOID addHP(LOC_INT value){ HP += value; }
     LOC_VOID addMP(LOC_INT value){ MP += value; }
     LOC_VOID addSTR(LOC_INT value){ STR += value; }
     LOC_VOID addINT(LOC_INT value){ INT += value; }
@@ -30,6 +38,10 @@ public:
     LOC_VOID addAVD(LOC_INT value){ AVD += value; }
     LOC_VOID addAFF(LOC_INT value){ AFF += value; }
 public:
+	LOC_INT getX(){ return X; }
+	LOC_INT getY(){ return Y; }
+	LOC_INT getWidth(){ return Width; }
+	LOC_INT getHeight(){ return Height; }
     LOC_INT getHP(){ return HP; }
     LOC_INT getMP(){ return MP; }
     LOC_INT getSTR(){ return STR; }

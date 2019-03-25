@@ -37,7 +37,7 @@ Rectangle {
     }
     focus: true//不获取焦点是不能处理键盘事件的，所以要设置为true
     Keys.enabled: true;
-    Keys.onEscapePressed: Qt.quit();
+    //Keys.onEscapePressed: Qt.quit();
 
 	Keys.forwardTo: [keyname];
     Keys.onPressed: {
@@ -53,8 +53,6 @@ Rectangle {
         case Qt.Key_7:
         case Qt.Key_8:
         case Qt.Key_9:
-            keyname.text=event.key-Qt.Key_0;
-            break;
 		case Qt.Key_Left:
         case Qt.Key_Right:
         case Qt.Key_Down:
@@ -63,12 +61,12 @@ Rectangle {
 		case Qt.Key_S:
 		case Qt.Key_D:
 		case Qt.Key_F:
-			x+=10;
-            keyname.text=1000000;
-			adjustTest();//测试js代码
-			ckeyboard.getButton(event.key);
-            break;
+            //keyname.text=1000000;
+			//adjustTest();//测试js代码
+			//console.log(event.key)
         default:
+			ckeyboard.getButton(event.key,root);
+			console.log(event.key)
             return;
         }
 		event.accepted=true;

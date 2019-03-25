@@ -9,7 +9,7 @@ class CAdapter :public QObject
 	Q_PROPERTY(int timenow READ read WRITE write NOTIFY timeCntChanged)
 signals:
 	void timeCntChanged();
-	void receive(LOC_String str);
+	void receive(LOC_STRING str);
 public slots:
 	void send();
 private:
@@ -20,7 +20,7 @@ public:
 public:
 	void write(int e);
 	int read() const;
-	Q_INVOKABLE void getButton(LOC_String str);
+	Q_INVOKABLE void getButton(LOC_STRING str);
 };
 
 #endif

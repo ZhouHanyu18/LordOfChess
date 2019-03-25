@@ -1,0 +1,33 @@
+﻿生成启动时间为 2019/1/28 11:43:01。
+     1>项目“E:\LordOfChess\ChessLord\ChessLord\ChessLord.vcxproj”在节点 2 上(Build 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_adapter.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_adapter.cpp, GeneratedFiles\Release\moc_adapter.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_keyboard.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_keyboard.cpp, GeneratedFiles\Release\moc_keyboard.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_mythread.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_mythread.cpp, GeneratedFiles\Release\moc_mythread.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_qtquick2applicationviewer.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_qtquick2applicationviewer.cpp, GeneratedFiles\Release\moc_qtquick2applicationviewer.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_role.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are GeneratedFiles\Debug\moc_role.cpp, GeneratedFiles\Release\moc_role.cpp.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtCore /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtGui /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtNetwork /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtQml /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtQuick /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtOpenGL /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtMultimedia /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtMultimediaWidgets /Zi /nologo /W1 /WX- /sdl- /Od /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_NETWORK_LIB /D QT_QML_LIB /D QT_QUICK_LIB /D QT_OPENGL_LIB /D QT_MULTIMEDIA_LIB /D QT_MULTIMEDIAWIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt keyboard.cpp
+         keyboard.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\LordOfChess\ChessLord\x64\Debug\\ChessLord.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.5.1\5.5\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Networkd.lib Qt5Qmld.lib Qt5Quickd.lib Qt5OpenGLd.lib opengl32.lib glu32.lib Qt5Multimedia.lib Qt5Multimediad.lib Qt5MultimediaWidgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\LordOfChess\ChessLord\x64\Debug\ChessLord.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\LordOfChess\ChessLord\x64\Debug\ChessLord.lib" /MACHINE:X64 x64\Debug\ChessLord.res
+         x64\Debug\adapter.obj
+         x64\Debug\basic.obj
+         x64\Debug\moc_adapter.obj
+         x64\Debug\moc_keyboard.obj
+         x64\Debug\moc_map.obj
+         x64\Debug\moc_mythread.obj
+         x64\Debug\moc_qtquick2applicationviewer.obj
+         x64\Debug\moc_role.obj
+         x64\Debug\keyboard.obj
+         x64\Debug\mythread.obj
+         x64\Debug\main.obj
+         x64\Debug\map.obj
+         x64\Debug\playsound.obj
+         x64\Debug\qtquick2applicationviewer.obj
+         x64\Debug\role.obj
+         ChessLord.vcxproj -> E:\LordOfChess\ChessLord\x64\Debug\ChessLord.exe
+     1>已完成生成项目“E:\LordOfChess\ChessLord\ChessLord\ChessLord.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.50

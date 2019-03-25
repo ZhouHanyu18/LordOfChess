@@ -22,6 +22,8 @@ private:
 	vector<vector<LOC_INT>> aMap;
 private:
 	QImage imgWater;
+	QImage imgWallRed;
+	QImage imgWallBlue;
 public:
 	Q_INVOKABLE void init();
 	virtual void paint(QPainter *painter);

@@ -11,6 +11,7 @@ int main(int argc, char *argv[])
 	qmlRegisterType<CMap>("an_qt_map", 1, 0, "QMLCMap");
 	qmlRegisterType<CKeyBoard>("an_qt_keyboard", 1, 0, "QMLCKeyBoard");
 	qmlRegisterType<CAdapter>("an_qt_adapter", 1, 0, "QMLCAdapter");
+	qmlRegisterType<CRole>("an_qt_role", 1, 0, "QMLCRole");
 
 	/*QtQuick2ApplicationViewer viewer;
 	viewer.setMainQmlFile(QStringLiteral("main.qml"));

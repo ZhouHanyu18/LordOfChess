@@ -5,7 +5,7 @@
 class CPlaySound:public QSound
 {
 public:
-	CPlaySound(LOC_String wav);
+	CPlaySound(LOC_STRING wav);
 	~CPlaySound();
 public:
 	
